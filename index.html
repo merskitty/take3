@@ -12,16 +12,23 @@
     <div id="app"></div>
     
   <!-- Musiquita -->
-  <audio id="background-music" puzzle piece.mp3 loop hidden></audio>
+  <audio id="background-music" loop hidden>
+    <!-- Provide several formats for browser compatibility -->
+    <source src="options/preview/puzzle piece.mp3" type="audio/mpeg">
+    <source src="options/preview/puzzle piece.ogg" type="audio/ogg">
+    <source src="options/preview/puzzle piece.wav" type="audio/wav">
+    <!-- Fallback text in case no files can be played -->
+    Your browser does not support the audio element.
+  </audio>
 
   <script>
-    // Que rompe bolas que sos Chrome...
     document.addEventListener('click', () => {
       const audio = document.getElementById('background-music');
-      audio.volume = 0.3; // Volumen
+      audio.volume = 0.3;
       audio.play().catch(error => console.error('Error al reproducir el audio:', error));
-    }, { once: true }); // Creo que va, 1 solo click
+    }, { once: true });
   </script>
+
     
     <script src="js/zepto.min.js"></script>
   </body>
