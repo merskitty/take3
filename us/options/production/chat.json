@@ -1,0 +1,147 @@
+[
+    { "msgs": ["Hi, pup 🥰❤️"], "msgInputSpeed": 40 },
+    {
+        "msgs": ["¿Puedes creer que ya llevamos medio año juntos?"],
+        "msgInputSpeed": 30
+    },
+    {
+        "msgs": ["Porque yo definitvamente no..."],
+        "msgInputSpeed": 10
+    },
+    {
+        "msgs": ["Pero anyway, espero disfrutes esto tanto como yo disfruto tu compañía ❤️"],
+        "msgInputSpeed": 30
+    },
+    {
+        "msgs": ["¿Te gustaría comenzar? 🌸"],
+        "msgInputSpeed": 50,
+        "triggerNextAction": {
+            "type": "userInput",
+            "options": {
+                "resolveKeyTexts": ["si", "Si", "SI", "sip", "Sip", "SIP", "chi", "Chi", "CHI", "dale", "Dale", "DALE", "quiero", "Quiero", "obvio", "Obvio", "de una", "De una"],
+                "rejectKeyTexts": ["no", "No", "nunca", "Nunca", "na", "Na", "meh", "Meh", "nop"],
+                "rejectHitTexts": [
+                    "te miro feo *bonk*"
+                ]
+            }
+        }
+    },
+    {
+        "msgs": ["Okis :3"],
+        "msgInputSpeed": 30
+    },
+    { "msgs": ["Antes que nada..."], "msgInputSpeed": 50 },
+    {
+        "msgs": ["Sé que pasaron muchas cosas."],
+        "msgInputSpeed": 30
+    },
+    {
+        "msgs": ["Sobre todo en los últimos meses."],
+        "msgInputSpeed": 30
+    },
+    {
+        "msgs": ["Y realmente quería hacer algo que te recuerde."],
+        "msgInputSpeed": 20
+    },
+    {
+        "msgs": ["Lo mucho que aprecio todos los días."],
+        "msgInputSpeed": 20
+    },
+    {
+        "msgs": ["Saber que voy a compartir mi vida con vos. ❤️"],
+        "msgInputSpeed": 10
+    },
+    { "msgs": ["Este regalo..."], "msgInputSpeed": 30 },
+    {
+        "msgs": ["es para que siempre puedas encontrar un lugar seguro,"],
+        "msgInputSpeed": 30
+    },
+    {
+        "msgs": ["un refugio donde puedas recordar lo mucho que te amo,"],
+        "msgInputSpeed": 30
+    },
+    {
+        "msgs": ["y que siempre voy a estar para vos. ❤️"],
+        "msgInputSpeed": 30
+    },
+    {
+        "msgs": ["La verdad es que son muchas las cosas que quería decirte,"],
+        "msgInputSpeed": 20
+    },
+    {
+        "msgs": ["y es por eso que"],
+        "msgInputSpeed": 30
+    },
+    {
+        "msgs": ["preferí escribirte una carta. ❤️"],
+        "msgInputSpeed": 30
+    },
+    {
+        "msgs": ["<letter src='options/preview/letter.json'/>"],
+        "triggerNextAction": { "type": "componentClose" }
+    },
+    {
+        "msgs": ["¡Espero que te haya gustado mi amor! 💌❤️"],
+        "msgInputSpeed": 30
+    },
+    {
+        "msgs": ["Jamás voy a cansarme de pensar"],
+        "msgInputSpeed": 20
+    },
+    {
+        "msgs": ["en lo afortunado que soy por tenerte a mi lado."],
+        "msgInputSpeed": 30
+    },
+    {
+        "msgs": ["<img src='options/preview/1.jpg'/>"],
+        "msgInputSpeed": 50
+    },
+    {
+        "msgs": ["<img src='options/preview/2.jpg'/>"],
+        "msgInputSpeed": 50
+    },
+    {
+        "msgs": ["<img src='options/preview/3.jpg'/>"],
+        "msgInputSpeed": 50
+    },
+    {
+        "msgs": ["<img src='options/preview/4.PNG'/>"],
+        "msgInputSpeed": 50
+    },
+    {
+        "msgs": ["<img src='options/preview/5.jpg'/>"],
+        "msgInputSpeed": 50
+    },
+    {
+        "msgs": ["Gracias por seguir conmigo y por nunca rendirte,"],
+        "msgInputSpeed": 30
+    },
+    {
+        "msgs": ["incluso cuando me vuelvo demasiado insoportable."],
+        "msgInputSpeed": 30
+    },
+    {
+        "msgs": ["No hay palabras que puedan describir lo mucho que te amo,"],
+        "msgInputSpeed": 30
+    },
+    {
+        "msgs": ["y lo que agradezco que seas parte de mi vida,"],
+        "msgInputSpeed": 30
+    },
+    {
+        "msgs": ["Felices 6 meses juntos, mi tesoro"],
+        "msgInputSpeed": 30
+    },
+    {
+        "msgs": ["Como siempre, espero que sea uno más de muchos."],
+        "msgInputSpeed": 30
+    },
+    {
+        "msgs": ["Con amor, Myungdae"],
+        "msgInputSpeed": 80
+    },
+    {
+        "msgs": ["<img src='options/preview/6.png'/>"],
+        "msgInputSpeed": 50
+    }
+]
